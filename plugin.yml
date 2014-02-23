@@ -1,0 +1,63 @@
+name: BControl
+version: 1.0
+author: broswen
+main: me.broswen.bcontrol.BControl
+description: a custom control plugin
+
+commands:
+  bcontrol:
+    description: the main plugin command
+    
+permissions:
+  bcontrol.info:
+    description: allows you to /bcontrol 'info'
+    default: op
+    
+  bcontrol.reload:
+    description: allows you to /bcontrol 'reload'
+    derfault: op
+    
+  bcontrol.build:
+    description: allows you to place blocks
+    default: op
+    
+  bcontrol.destroy:
+    description: allows you to destroy blocks
+    default: op
+    
+  bcontrol.chest:
+    description: allows you to use chests
+    default: op
+    
+  bcontrol.furnace:
+    description: allows you to use furnaces
+    default: op
+
+  bcontrol.workbench:
+    description: allows you to use the workbench
+    default: op
+
+  bcontrol.enderchest:
+    description: allows you to use the enderchest
+    default: op
+    
+  bcontrol.anvil:
+    description: allows you to use the anvil
+    default: op
+    
+  bcontrol.enchantmenttable:
+    description: allows you to use the enchant table
+    default: op
+    
+  bcontrol.jukebox:
+    description: allows you to use the jukebox
+    default: op
+    
+  bcontrol.noteblock:
+    description: allows you to use noteblocks
+    default: op
+    
+  bcontrol.trappedchest
+    description: allows you to use the trapped chest
+    default: op
+    
