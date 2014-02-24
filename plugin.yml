@@ -25,6 +25,21 @@ permissions:
     description: allows you to destroy blocks
     default: op
     
+  bcontrol.use:
+    children:
+      bcontrol.chest: true
+      bcontrol.furnace: true
+      bcontrol.workbench: true
+      bcontrol.enderchest: true
+      bcontrol.anvil: true
+      bcontrol.enchantmenttable: true
+      bcontrol.jukebox: true
+      bcontrol.noteblock: true
+      bcontrol.trappedchest: true
+      bcontrol.dispenser: true
+      bcontrol.dropper: true
+      bcontrol.hopper: true
+    
   bcontrol.chest:
     description: allows you to use chests
     default: op
@@ -57,7 +72,18 @@ permissions:
     description: allows you to use noteblocks
     default: op
     
-  bcontrol.trappedchest
+  bcontrol.trappedchest:
     description: allows you to use the trapped chest
     default: op
     
+  bcontrol.dispenser:
+    description: allows you to use the dispenser
+    default: op
+    
+  bcontrol.dropper:
+    description: allows you to use the dropper
+    default: op
+    
+  bcontrol.hopper:
+    description: allows you to use the hopper
+    default: op
